@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Page.Page6_10.Page006Activity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/BT_favin"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_favin"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_savein"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_savein"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_nextin"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_nextin"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_removein"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_removein"
+        android:textSize="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/page007"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="7"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/page008"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="8"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/page009"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="9"
+            android:textSize="24dp"/>
+
+        <Button
+            android:id="@+id/page010"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="10"
+            android:textSize="24dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

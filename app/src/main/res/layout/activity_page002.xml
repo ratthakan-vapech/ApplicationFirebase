@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Page.Page1_5.Page002Activity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/BT_detailinex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_detailinex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_statinex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_statinex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_bginex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_bginex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_addinex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_addinex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_creditinex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_creditinex"
+        android:textSize="24dp"/>
+
+</LinearLayout>

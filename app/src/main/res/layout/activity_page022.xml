@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Page.Page21_25.Page022Activity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/BT_addfav_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_addfav_ex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_editfav_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_editfav_ex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_savefav_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_savefav_ex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_all_selectex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_all_selectex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_uns_selectex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_uns_selectex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_sta_selectex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_sta_selectex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_inv_selectex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_inv_selectex"
+        android:textSize="24dp"/>
+
+</LinearLayout>

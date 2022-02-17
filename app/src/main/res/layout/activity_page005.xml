@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Page.Page1_5.Page005Activity">
+
+    <Button
+        android:id="@+id/BT_addin"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_addin"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/BT_addex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_addex"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/BT_transferinex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_transferinex"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/BT_favex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_favex"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/BT_saveex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_saveex"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/BT_nextex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_nextex"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/BT_removeex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_removeex"
+        android:textSize="24dp" />
+
+</LinearLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.applicationfirebase" >
+    package="com.example.applicationfirebase">
 
     <application
         android:allowBackup="true"
@@ -8,14 +8,68 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ApplicationFirebase" >
+        android:theme="@style/Theme.ApplicationFirebase">
+        <activity
+            android:name=".Page.All_PageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page21_25.Page025Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page21_25.Page024Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page21_25.Page023Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page21_25.Page022Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page21_25.page021Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page16_20.Page020Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page11_15.Page012Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page11_15.Page011Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page6_10.Page010Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page6_10.Page008Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page6_10.Page007Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page6_10.Page006Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page1_5.Page005Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page1_5.Page004Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page1_5.Page003Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page1_5.Page002Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Page.Page1_5.Page001Activity"
+            android:exported="false" />
         <activity
             android:name=".MainMenuActivity"
             android:exported="false"
             android:label="@string/title_activity_main_menu" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

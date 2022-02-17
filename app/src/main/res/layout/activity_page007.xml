@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Page.Page6_10.Page007Activity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/BT_favtransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_favtransfer"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_savetransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_savetransfer"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_nexttransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_nexttransfer"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_removetransfer"
+        android:layout_width="339dp"
+        android:layout_height="80dp"
+        android:text="BT_removetransfer"
+        android:textSize="24dp" />
+
+</LinearLayout>

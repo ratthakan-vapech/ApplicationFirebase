@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Page.Page1_5.Page001Activity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/BT_financialplan"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_financialplan"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_inex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:textSize="24dp"
+        android:text="BT_inex" />
+
+    <Button
+        android:id="@+id/BT_ls"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:textSize="24dp"
+        android:text="BT_ls" />
+
+    <Button
+        android:id="@+id/BT_asli"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:textSize="24dp"
+        android:text="BT_asli" />
+
+    <Button
+        android:id="@+id/BT_me"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:textSize="24dp"
+        android:text="BT_me" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/page002"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="หน้า2"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/page003"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="หน้า3"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/page004"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="หน้า4"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/page005"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="หน้า5"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+</LinearLayout>

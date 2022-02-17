@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Page.Page6_10.Page010Activity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/BT_detailasli"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_detailasli"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_cfasli"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_cfasli"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_invasli"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_invasli"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_statasli"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_statasli"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_asasli"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_asasli"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_liasli"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_liasli"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_addasli"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_addasli"
+        android:textSize="24dp"/>
+
+</LinearLayout>

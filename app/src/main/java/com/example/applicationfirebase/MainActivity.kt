@@ -4,10 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.analytics.FirebaseAnalytics
 
-import android.R.id
 import android.content.Intent
 import android.widget.Button
-import com.google.android.gms.measurement.module.Analytics
+import com.example.applicationfirebase.Page.All_PageActivity
+import com.example.applicationfirebase.Page.Page1_5.Page001Activity
 
 
 class MainActivity : AppCompatActivity() {
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             params.putString("full_text", "Android 7.0 Nougat")
             mFirebaseAnalytics.logEvent("push_button_android", params)
 
-            startActivity(Intent(this, MainMenuActivity::class.java))
+            startActivity(Intent(this, All_PageActivity::class.java))
         }
 
 

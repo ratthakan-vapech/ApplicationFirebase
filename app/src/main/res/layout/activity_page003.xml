@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Page.Page1_5.Page003Activity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/BT_pie_statinex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_pie_statinex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_his_statinex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_his_statinex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_sta_statinex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_sta_statinex"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/BT_act_statinex"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="BT_act_statinex"
+        android:textSize="24dp"/>
+
+</LinearLayout>
